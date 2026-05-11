@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.nav{
+   border: 1px solid black;
+  width: 100%;
+  height: 30px;
+ display: flex;
+  justify-content: sapace-around;
+  align-items: center;
+  gap: 30px;
+  font-size: 5px;
+  color: white;
+  position: absolute;
+  top: 1px;
+}
+#play-more{
+  border: 1px solid rgb(0, 255, 221);
+  width: 100px;
+  height: 12px;
+  text-align: center;
+  font-size: 5px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0, 255, 221);
+}
+#player{
+  border: 1px solid rgb(0, 255, 221);
+  width: 100px;
+  height: 10px;
+  text-align: center;
+  font-size: 5px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0, 255, 221);
+}
+#discription{
+  color:white;
+  position: absolute;
+  top: 20%;
+}
+#battle{
+  color: rgb(0, 255, 221);
+}
+#hunters{
+  color: rgb(0, 255, 221);
+}
+#escape{
+  font-size: 10px;
+}
+#dis2{
+  font-size: 5px;
+}
+#play-now{
+  border: 1px solid rgb(0, 255, 221);
+  width: 100px;
+  height: 12px;
+  text-align: center;
+  font-size: 5px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0, 255, 221);
+}
+#play{
+  width: 10px;
+  height: 4px;
+  fill: rgb(255, 255, 255);
+  position: relative;
+  left: 1px;
+}
+#watch{
+  border: 1px solid rgb(0, 255, 221);
+  width: 120px;
+  height: 12px;
+  text-align: center;
+  font-size: 5px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0, 255, 221);
+}
+.footer{
+  border: 1px solid rgb(2, 255, 255);
+  width: 90%;
+  height: 50px;
+ display: flex;
+  justify-content: sapace-around;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2px;
+  opacity: 0.5;
+  position: absolute;
+  left: 5%;
+  top: 190px;
+  font-size: 15px;
+  color: rgb(0, 251, 255);
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(2, 255, 255);
+}
+#a{
+  color: rgb(247, 255, 254);
+}
+#b{
+  color: rgb(247, 255, 254);
+}
+#c{
+  color: rgb(247, 255, 254);
+}
+#d{
+  color: rgb(247, 255, 254);
+}
